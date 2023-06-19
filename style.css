@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@500&family=Overpass:wght@200&display=swap');
+
+:root {
+    --primary-color: rgb(255, 255, 255);
+    --main-font-size: 20px; 
+    --second-font-size: 16px;
+    --tertiary-font-size: 14px;
+}
+
+body {
+    background-image: url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(185, 75%, 39%);
+}
+
+
+/* Upper Section */
+
+.card-section {
+    position: relative;
+    top: 10rem;
+    width: 25rem;;
+    height: 27.5rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    z-index: 1;
+    background-color: white;
+}
+.card-section > .upper-image {
+    position: relative;
+    width: 115%;
+    right: 2rem;
+}
+
+/* Image Section */
+
+.image-section {
+    position: relative; 
+    bottom: 3rem;
+}
+
+.image-victor {
+    position: relative;
+    border: 6px solid var(--primary-color);
+    border-radius: 5rem;
+    left: 7.5rem;
+}
+
+/* Person Information Section */
+
+.name-section {
+    position: relative; 
+    bottom: 2.5rem;
+}
+.name-section h1 {
+    font-family: 'Kumbh Sans', sans-serif;
+    text-align: center;
+    font-weight: 1000;
+    opacity: 90%;
+    font-size: var(--main-font-size);
+}
+.age-detail {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    opacity: 75%;
+}
+.name-section h1:nth-child(2) {
+    opacity: 60%;
+    font-size: var(--second-font-size);
+    font-weight: 400;
+}
+
+hr {
+    position: relative;
+    right: 5rem;
+    width: 30rem;
+}
+
+/* Additional Details Section */
+
+.additional-details {
+    font-size: var(--main-font-size);
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    opacity: 90%;
+}
+
+.followers{
+    position: relative;
+    right: 4rem;
+}
+
+.photos{
+    position: relative;
+    left: 4rem;
+}
+
+.numeric-details {
+    font-family: 'Overpass', sans-serif;
+    font-size: var(--tertiary-font-size);
+    text-align: center;
+}
+
+.followers-data {
+    position: relative; 
+    right: 4.5rem;
+}
+
+.likes-data {
+    position: relative;
+    right: 0.6rem;
+}
+
+.photos-data {
+    position: relative;
+    left: 4rem;
+}
+
+.attribution { 
+    position: relative;
+    top: 15rem;
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: white; 
+}
